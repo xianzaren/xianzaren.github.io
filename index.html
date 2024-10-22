@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <title>项目网站</title>  
     <style>  
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
         body {  
             font-family: Arial, sans-serif;  
             margin: 0;  
@@ -100,6 +114,67 @@
                   <p>您的浏览器不支持查看PDF文件，请下载<a href="survey.pdf">这个PDF文件</a>来查看。</p>
             </object>
             <p>以下是调查问卷的收集信息：</p>
+            <table>
+    <tr>
+        <th>问题</th>
+        <th>问卷结果1</th>
+        <th>问卷结果2</th>
+        <th>问卷结果3</th>
+        <!-- 可以添加更多列来显示更多问卷结果 -->
+    </tr>
+
+    <tr>
+        <td>1. 您的年龄范围？</td>
+        <td>21-30</td>
+        <td>31-40</td>
+        <td>20及以下</td>
+    </tr>
+
+    <tr>
+        <td>2. 您的性别？</td>
+        <td>男</td>
+        <td>女</td>
+        <td>男</td>
+    </tr>
+
+    <tr>
+        <td>3. 您的居住地区？</td>
+        <td>省：山东，市：济南，县/区：历下区，乡/镇：东关街道</td>
+        <td>省：广东，市：广州，县/区：天河区，乡/镇：五山街道</td>
+        <td>省：北京，市：北京，县/区：朝阳区，乡/镇：望京街道</td>
+    </tr>
+
+    <tr>
+        <td>4. 您的教育水平？</td>
+        <td>本科学历或大专</td>
+        <td>研究生及以上</td>
+        <td>中学学历或中专</td>
+    </tr>
+
+    <tr>
+        <td>5. 您的职业？</td>
+        <td>教师</td>
+        <td>工程师</td>
+        <td>学生</td>
+    </tr>
+
+    <tr>
+        <td>6. 您身边是否有伴侣或护工等帮助出行的人？</td>
+        <td>有</td>
+        <td>无</td>
+        <td>无</td>
+    </tr>
+
+    <!-- 此处省略部分问题 -->
+    
+    <tr>
+        <td>21. 您能接受的应用的付费方式是怎样的？</td>
+        <td>买断制</td>
+        <td>会员制</td>
+        <td>完全免费</td>
+    </tr>
+
+</table>
         </section>  
     </main>  
 </body>  
