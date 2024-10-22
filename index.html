@@ -8,14 +8,19 @@
         table {
             width: 100%;
             border-collapse: collapse;
+            table-layout: fixed; /* 固定表格布局，保证每列宽度一致 */
         }
+        
         table, th, td {
             border: 1px solid black;
         }
+        
         th, td {
             padding: 10px;
             text-align: left;
+            word-wrap: break-word; /* 自动换行，防止内容溢出 */
         }
+        
         th {
             background-color: #f2f2f2;
         }
